@@ -36,6 +36,8 @@ search_query = " " + " -filter:retweets"
 
 tweets = tweepy.Cursor(api.search, q=search_query, lang="en", result_type="recent", tweet_mode="extended").items(500)
 
+# you can find other parameters like date here : http://docs.tweepy.org/en/latest/api.html#API.search
+
 # write to file
 tweet_set = open("your-directory/filename.csv", "w", newline='', encoding="utf-8")
 writer = csv.writer(tweet_set)
