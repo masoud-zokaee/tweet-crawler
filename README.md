@@ -12,7 +12,7 @@ Copy or download python files and do followings:
 
 3- choose your output .csv file directory and file name
 
-### Prerequisites
+## Prerequisites
 
 you need two python library 
 
@@ -45,7 +45,7 @@ A guide to successfully apply to access Twitter APIs :
 
 https://realsocialseo.com/successfully-apply-to-access-twitter-apis/
 
-### Some Tips 
+## Some Tips 
 
 twitter API's have some limits in using and retrieving tweets like number of requests 
 
