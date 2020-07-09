@@ -10,9 +10,11 @@ Copy or download python files and do followings:
 
 2- enter your search query ( word - hashtag - phrase )
 
-2.1 - enter your tweet id
+2.1 - enter your tweet id ( for tweet_ById.py )
 
 3- choose your output .csv file directory and file name
+
+3.1 - choose your input .csv file directory and file name ( for tweet_ById.py )
 
 ## Prerequisites
 
