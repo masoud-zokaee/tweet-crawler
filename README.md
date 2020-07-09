@@ -10,13 +10,15 @@ Copy or download python files and do followings:
 
 2- enter your search query ( word - hashtag - phrase )
 
+2.1 - enter your tweet id
+
 3- choose your output .csv file directory and file name
 
 ## Prerequisites
 
 you need two python library 
 
-1- tweepy 2- csv
+1- tweepy 2- twython 3- csv
 
 you can use commands like
 
@@ -24,6 +26,8 @@ you can use commands like
 pip install tweepy
 
 pip install csv
+
+pip install twython
 
 ```
 
@@ -34,6 +38,9 @@ back to previous weeks till now
 
 2- tweet_stream.py : crawl twitter for tweets based on entry search query using stream behavior,
 tweets which have been published from the moment you run the code will be returned. 
+
+3- tweet_ById.py : crawl twitter for tweets based on tweet ids. tweet id can be a list of ids stored 
+in a .csv or .txt file.
 
 ## Useful links
 
