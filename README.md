@@ -38,7 +38,7 @@ pip install twython
 1- tweet_cursor.py : crawl twitter for tweets based on an entry search query, tweets date can
 back to previous weeks till now
 
-2- tweet_stream.py : crawl twitter for tweets based on entry search query using stream behavior,
+2- tweet_stream.py : crawl twitter for tweets based on an entry search query using stream behavior,
 tweets that have been published from the moment you run the code will be returned. 
 
 3- tweet_ById.py : crawl twitter for tweets based on tweet ids. tweet id can be a list of ids stored 
