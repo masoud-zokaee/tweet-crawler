@@ -18,7 +18,7 @@ Copy or download python files and do followings:
 
 ## Prerequisites
 
-you need two python library 
+Required python libraries 
 
 1- tweepy 2- twython 3- csv
 
@@ -35,11 +35,11 @@ pip install twython
 
 ## Files description 
 
-1- tweet_cursor.py : crawl twitter for tweets based on entry search query, tweets date can
+1- tweet_cursor.py : crawl twitter for tweets based on an entry search query, tweets date can
 back to previous weeks till now
 
 2- tweet_stream.py : crawl twitter for tweets based on entry search query using stream behavior,
-tweets which have been published from the moment you run the code will be returned. 
+tweets that have been published from the moment you run the code will be returned. 
 
 3- tweet_ById.py : crawl twitter for tweets based on tweet ids. tweet id can be a list of ids stored 
 in a .csv or .txt file.
@@ -56,7 +56,7 @@ https://realsocialseo.com/successfully-apply-to-access-twitter-apis/
 
 ## Some Tips 
 
-twitter API's have some limits in using and retrieving tweets like number of requests 
+Twitter API's have some limits in using and retrieving tweets, like the number of requests 
 
 and post / get endpoints. you can find the complete details here :
 
