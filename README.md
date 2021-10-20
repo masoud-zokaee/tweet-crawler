@@ -1,20 +1,20 @@
 # Tweet Crawler
 
-Crawl tweet texts from twitter with twitter API
+Crawl tweet texts from twitter using twitter API
 
 ## Getting Started
 
-Copy or download python files and do followings:
+Copy python files or clone the entire repository and do the followings:
 
-1- replace your twitter API consumer keys and access tokens
+1- Inside main_courser and main_by_id files replace 
+   your twitter API consumer keys and access tokens
 
-2- enter your search query ( word - hashtag - phrase )
+2- Enter your search query ( word - hashtag - phrase ) and other 
+   required parameters inside search_config 
 
-2.1 - enter your tweet id ( for tweet_ById.py )
+2.1 - Or enter your tweet id file path ( for main_by_id )
 
-3- choose your output .csv file directory and file name
-
-3.1 - choose your input .csv file directory and file name ( for tweet_ById.py )
+3- Also choose your output .csv file directory and file name
 
 ## Prerequisites
 
@@ -33,16 +33,15 @@ pip install twython
 
 ```
 
+or you can simply use the ***requirements.txt*** file to install all requirements
+
 ## Files description 
 
 1- tweet_cursor.py : crawl twitter for tweets based on an entry search query, tweets date can
 back to previous weeks till now
 
-2- tweet_stream.py : crawl twitter for tweets based on an entry search query using stream behavior,
-tweets that have been published from the moment you run the code will be returned. 
-
-3- tweet_ById.py : crawl twitter for tweets based on tweet ids. tweet id can be a list of ids stored 
-in a .csv or .txt file.
+2- tweet_by_id.py : crawl twitter for tweets based on tweet ids. tweet id can be a list of ids stored 
+in a .csv or .txt file. you can specify index of id column in case of multiple columns(default is 0)
 
 ## Useful links
 
